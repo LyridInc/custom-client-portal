@@ -1,0 +1,12 @@
+name: syncinc
+description: App Description
+ignoreFiles: .git node_modules .next
+modules:
+- name: demo
+  language: nodejs12.x
+  web: express.nextjs
+  description: Module description
+  functions:
+  - name: entry
+    entry: app.js
+    description: the entry point for the function
